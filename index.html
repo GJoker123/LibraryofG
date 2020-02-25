@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Written Works Of G</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Written Works of G</h1>
+            <h2>Welcome to my personal world. Enjoy as you browse through.</h2>
+            <p>This website is a personal library that will contain stories and poems written by me.</p>
+            <p>This website is to show those that entered of a person that used to be an avid explorer of the unknown, a traveller to the beyond and back. </p>
+            <p>This website is to show to those that step into its boundaries that...</p>
+            <p> <strong>I existed.</strong></p>
+            <!-- Button trigger modal -->
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select A Story
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <button onclick="loadtext('writtenpieces/Peonies and Chrysanthemums.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="Peonies and Chrysanthemums">Peonies and Chrysanthemums</button>
+                    <button onclick="loadtext('writtenpieces/Ode To My Mother.txt',this);" class="dropdown-item" type="button" data-toggle="modal" data-target="#exampleModal" value="Ode To My Mother">Ode To My Mother</button>
+                    <button onclick="loadtext('writtenpieces/Space.txt',this);" class="dropdown-item" type="button" data-toggle="modal" data-target="#exampleModal" value="Space">Space</button>
+                    <button onclick="loadtext('writtenpieces/Hot Spark.txt',this);" class="dropdown-item" type="button" data-toggle="modal" data-target="#exampleModal" value="Hot Spark">Hot Spark</button>
+                    <button onclick="loadtext('writtenpieces/Today.txt',this);" class="dropdown-item" type="button" data-toggle="modal" data-target="#exampleModal" value="Today">Today</button>
+
+                    <button onclick="loadtext('writtenpieces/Dear Dad.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="Dear Dad">Dear Dad</button>
+                    <button onclick="loadtext('writtenpieces/George and the dragon.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="George and the Dragon">George and the Dragon</button>
+                    <button onclick="loadtext('writtenpieces/Meaning of Life.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="The Meaning of Life">The Meaning of Life</button>
+                    <button onclick="loadtext('writtenpieces/Sleep.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="Sleep The Great Question">Sleep The Great Question</button>
+                </div>
+            </div>
+            <br>
+            <p>For those that wish to see the darker aspect of me please click <span style="color: #fff; cursor: pointer;" onclick="password()">here</span>. </p>
+            <p>However please note that this requires one of multiple encrypted passwords which are found on other projects.</p>
+            <p>( Unless you're an employer in which case please click <span style="color: #fff; cursor: pointer;" onclick="password()">here</span>).</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+            <div class="modal-content customisemodal">
+                <div class="modal-header">
+                    <h5 id="displayname" class="modal-title ">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="display" class="modal-body ">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer>
+            <p><strong> Designed by Gabriel &copy; </strong></p>
+        </footer>
+    </div>
+
+
+
+
+</body>
+<script src="javascript/script.js"></script>
+<script src="javascript/displaystory.js"></script>
+<!--<script src="javascript/bootstrap.js"></script> -->
+<!--<script src="javascript/bootstrap.bundle.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script></html>

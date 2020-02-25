@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/2style.css">
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Written Works Of G</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Written Works of G</h1>
+            <h2>I see you reached the other side of the website. Please, watch your step.</h2>
+            <p>The stories crafted here are of a darker nature. Held here for those that find comfort in the darkness of their psyche. </p>
+            <p><i>"If there be Light, then there is Darkness"</i> </p>
+            <div class="dropdown">
+                <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select A Story
+                </button>
+                <br>
+                <br>
+                <p>If you wish to return... click <span style="color: white; cursor: pointer;" onclick="returnpage()">here</span></p>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <button onclick="loadtext('writtenpieces/Pain.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="I Am Pain">I am Pain</button>
+                    <button onclick="loadtext('writtenpieces/Journey.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="A Joruney">A Journey</button>
+                    <button onclick="loadtext('writtenpieces/A Particular Talk.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="A Particular Talk">A Particular Talk</button>
+                    <button onclick="loadtext('writtenpieces/Choice.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="Choice">Choice</button>
+                    <button onclick="loadtext('writtenpieces/Deep Breaths.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="Deep Breaths">Deep Breaths</button>
+                    <button onclick="loadtext('writtenpieces/Food Hell.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="Struck In Food Hell">Struck In Food Hell</button>
+                    <button onclick="loadtext('writtenpieces/Emptiness.txt',this);" class="dropdown-item" type="button" data-toggle="modal" data-target="#exampleModal" value="Emptiness">Emptiness</button>
+                    <button onclick="loadtext('writtenpieces/Refills.txt',this);" class="dropdown-item" type="button" data-toggle="modal" data-target="#exampleModal" value="Refills">Refills</button>
+                    <button onclick="loadtext('writtenpieces/SuperPower Madness.txt',this);" class="dropdown-item" type="button" data-toggle="modal" data-target="#exampleModal" value="SuperPower Madness">SuperPower Madness</button>
+                    <button onclick="loadtext('writtenpieces/Nightmares.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="Nightmares">Nightmares</button>
+                    <button onclick="loadtext('writtenpieces/One Lonely Night.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="One Lonely Night">One Lonely Night</button>
+                    <button onclick="loadtext('writtenpieces/The Creeping.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="The Creeping">The Creeping</button>
+                    <button onclick="loadtext('writtenpieces/Perspectives.txt',this);" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" type="button" value="Perspectives">Perspectives</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+            <div class="modal-content customisemodal ">
+                <div class="modal-header">
+                    <h5 id="displayname" class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="display" class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer>
+            <p><strong> Designed by Gabriel &copy; </strong></p>
+        </footer>
+    </div>
+</body>
+<script src="javascript/script.js"></script>
+<script src="javascript/displaystory.js"></script>
+<!--<script src="javascript/bootstrap.js"></script> -->
+<!--<script src="javascript/bootstrap.bundle.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script></html>

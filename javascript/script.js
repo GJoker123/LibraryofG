@@ -24,6 +24,9 @@ function password() {
     }
 }
 
+function skippassword() {
+     window.location.replace("switch.html");
+}
 function returnpage() {
     window.location.replace("index.html");
 }

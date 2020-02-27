@@ -25,6 +25,15 @@ body {
     margin-top: 70px;
 }
 
+a{    
+    color: #b22222;
+}
+
+a:hover{
+    color: #b22222;
+    
+}
+
 /* Footer Information and CSS */
 footer {  
     color: #000;

@@ -1,5 +1,5 @@
 function password() {
-    var pass = prompt("Please enter in translated code from one of the other projects: ")
+    var pass = prompt("Please enter one of the passwords: ")
     switch (pass) {
         case "Do you wish to see the other side?":
             alert("PASSAGE GRANTED!")
@@ -13,20 +13,33 @@ function password() {
                 window.location.replace("switch.html");
             }, 1000)
             break;
+        case "Ready to take the plunge?":
+            alert("PASSAGE GRANTED!")
+            setTimeout(function () {
+                window.location.replace("switch.html");
+            }, 1000)
+            break;
+        case "Do we all deserve a choice?":
+            alert("PASSAGE GRANTED!")
+            setTimeout(function () {
+                window.location.replace("switch.html");
+            }, 1000)
+            break;
         case "0123":
             alert("PASSAGE GRANTED!")
             setTimeout(function () {
                 window.location.replace("switch.html");
             }, 1000)
             break;
-        //default:
+            //default:
             //alert("INCORRECT!")
     }
 }
 
 function skippassword() {
-     window.location.replace("switch.html");
+    window.location.replace("switch.html");
 }
+
 function returnpage() {
     window.location.replace("index.html");
 }
